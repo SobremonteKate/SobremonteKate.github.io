@@ -1,0 +1,23 @@
+.cor-table {
+    border-collapse: collapse;
+}
+
+.cor-table th, .cor-table td {
+    border: 1px solid #FF99AD;
+    padding: 3px;
+    text-align: center;
+    background-color: #FF99AD; 
+    color: white; 
+}
+
+.cor-table th {
+    font-weight: bold;
+}
+
+.cor-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cor-table tr:hover {
+    background-color: #FFE156;
+}
